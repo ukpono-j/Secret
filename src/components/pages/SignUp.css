@@ -1,0 +1,110 @@
+.main_signin{
+    height: auto;
+    /* border: 1px solid #fff; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signUp_form{
+    width: 100%;
+    /* border: 1px solid #fff; */
+    height: auto;
+
+}
+.SignUp_{
+    width:  60%;
+    height: auto;
+    border-radius: 40px;
+    margin-top: 60px;
+    background-color: #034a3d ;
+    margin-left: 40px;
+    padding: 20px;
+    /* border: 1px solid #fff; */
+}
+.signUp_img{
+    width: 100%;
+    /* border: 1px solid #fff; */
+    height: auto;
+}
+
+.SignUp_ input[type=text]{
+    padding-left: 20px;
+    font-family: "Lilita One";
+    color: gray !important;
+}
+
+.SignUp_ input[type=password]{
+    padding-left: 20px;
+    font-family: "Lilita One";
+
+}
+
+
+.login_decision{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #fff; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.login_return{
+    font-family: "Lilita One";
+    height: 40px;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.login_signUp_btn{
+    font-size: 13px;
+    height: 40px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: "Lilita One";
+    width: 100px;
+    border: 1px solid #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+.forgot{
+    font-family: "Lilita One";
+    padding-top: 20px;  
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.SignUp_ h4{
+    font-family: "buster";
+    text-align: center;
+    padding-top: 20px;
+    font-size: 38px;
+    color: white;
+}
+
+
+.SignUp_ input{
+    width: 100%;
+    margin-top: 4px;
+    /* background-color: #fff !important; */
+    border-radius: 20px;
+    height: 40px;
+   
+}
+.SignUp_ p{
+    padding-left: 10px;
+    color: white;
+    font-family: "Lilita One";
+    letter-spacing: 2px;
+    padding-top: 10px;
+}

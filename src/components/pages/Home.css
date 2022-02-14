@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "buster";
+    src: url(../a-buster-down-cufonfonts/BusterDown-ow950.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* #034a3d */
+/* background-color: #198754; */
+/* rgba(0,67,55,.8) */
+/* #116454 */
+/* #e83d80  purple */
+/* background-color: #d63384; */
+/* background: #e83d80;
+box-shadow: 0 4px 0 rgb(0 0 0 / 10%), inset 0 3px 0 rgb(255 255 255 / 25%), inset 0 -3px 0 rgb(0 0 0 / 25%); */
+
+
+.home_1{
+    height: auto;
+    background-color: #116454;
+    width: 100%;
+}
+.home_container{
+    height: 100vh;
+    width: 100%;
+}
+
+.home_container img{
+   width: 100%;
+   height: 100vh;
+   object-fit: cover;
+}
+.home_hot{
+    height: auto;
+    width: 100%;
+    padding:10px 30px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #fff; */
+}
+.home_hot img{
+    border-radius: 30px;
+    height: 70vh;
+    object-fit: cover;
+}
+.meet_text{
+    font-size: 30px;
+    font-family: "buster";
+    color: white;
+    padding: 40px 50px 0px 50px;
+}
+.home_hot > div{
+    padding: 0px 20px;
+    width: 100%;
+    height: auto;
+}
+
+.home_hot h1{
+    font-family: "Lilita One";
+    color: white;
+    font-size: 37px;
+    line-height: 41px;
+    /* padding-top: 70px; */
+    /* padding: 10px 30px 0px 30px; */
+}
+.home_hot p{
+    font-family: "Roboto";
+    color: white;
+    padding-top: 12px;
+    font-size: 15px;
+    line-height: 26px;
+}
+.create-account{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Lilita One";
+    background: #e83d80;
+    box-shadow: 0 4px 0 rgb(0 0 0 / 10%), inset 0 3px 0 rgb(255 255 255 / 25%), inset 0 -3px 0 rgb(0 0 0 / 25%); 
+    /* border: 1px solid #fff; */
+    height: 47px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 789px){
+   .home_hot{
+       display: block;
+   }
+   .home_hot{
+    padding:10px 0px;
+  }
+  .meet_text{
+      text-align: center;
+    line-height: 30px;
+    padding:90px 50px 0px 50px;
+}
+.home_hot img{
+    margin-top: 30px;
+}
+.home_hot h1 {
+    font-family: "Lilita One";
+    color: white;
+    font-size: 30px;
+    line-height: 34px;
+    padding-top: 16px;
+}
+.create-account {
+    width: 100%;
+}
+
+}

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "buster";
+    src: url(../a-buster-down-cufonfonts/BusterDown-ow950.otf);
+  }
+.main_login{
+    background-color: #116454;
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.login_form{
+    width: 70%;
+    /* border: 1px solid #fff; */
+    height: auto;
+}
+.login_img{
+    width: 100%;
+    /* border: 1px solid #fff; */
+    height: auto;
+}
+.login_img img{
+    width: 100%;
+}
+.login_form_bx{
+    height: auto;
+    margin-left: 100px;
+    padding: 10px 20px;
+    width: 75%;
+    border-radius: 50px;
+    background-color: #034a3d ;
+    /* border: 1px solid #fff; */
+}
+.login_form h4{
+    font-family: "buster";
+    text-align: center;
+    padding-top: 20px;
+    font-size: 38px;
+    color: white;
+}
+.login_form input{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 40px;
+   
+}
+.login_form p{
+    padding-left: 10px;
+    color: white;
+    font-family: "Lilita One";
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.login_check_bx{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.login_check_bx input{
+    width: 20px;
+    outline: none !important;
+    border: none;
+    display: flex;
+    height: 20px;
+}
+
+.remind{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-family: "Lilita One";
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.login_form input[type=text]{
+    padding-left: 20px;
+    font-family: "Lilita One";
+}
+.login_form input[type=password]{
+    padding-left: 20px;
+}
+
+.login_decision{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #fff; */
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.login_return{
+    font-family: "Lilita One";
+    height: 40px;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.login_signUp_btn{
+    font-size: 13px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: "Lilita One";
+    width: 100px;
+    border: 1px solid #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+.forgot{
+    font-family: "Lilita One";
+    padding-top: 20px;  
+    letter-spacing: 1px;
+    font-size: 14px;
+}
