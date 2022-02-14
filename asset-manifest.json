@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7383b0e.css",
+    "main.js": "/static/js/main.cf6e81eb.js",
+    "static/media/16.webp": "/static/media/16.332c4ddaf63dc727de51.webp",
+    "static/media/image.jpg": "/static/media/image.538e008af38debd49d46.jpg",
+    "static/media/happy10.jpeg": "/static/media/happy10.918ed1366d6a6f546485.jpeg",
+    "static/media/happy9.jpeg": "/static/media/happy9.f0d086ac3ac02e92ef76.jpeg",
+    "static/media/BusterDown-ow950.otf": "/static/media/BusterDown-ow950.b7bdf2e03152914423ad.otf",
+    "static/media/02.jpeg": "/static/media/02.ee728e9144388b01326b.jpeg",
+    "index.html": "/index.html",
+    "main.b7383b0e.css.map": "/static/css/main.b7383b0e.css.map",
+    "main.cf6e81eb.js.map": "/static/js/main.cf6e81eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7383b0e.css",
+    "static/js/main.cf6e81eb.js"
+  ]
+}
